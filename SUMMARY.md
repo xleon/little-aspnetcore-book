@@ -14,7 +14,7 @@
   * [Termina el controlador](chapters/mvc-basics/finish-controller.md)
 * [Añadir paquetes externos](chapters/add-external-packages/README.md)
 * [Usar una base de datos](chapters/use-a-database/README.md)
-  * [Conectar a una base de datos](chapters/use-a-database/connect-to-a-database.md)
+  * [Conecta con una base de datos](chapters/use-a-database/connect-to-a-database.md)
   * [Actualiza el contexto](chapters/use-a-database/update-context.md)
   * [Crea una migración](chapters/use-a-database/create-migration.md)
   * [Crea un servicio en una nueva clase](chapters/use-a-database/create-service-class.md)
