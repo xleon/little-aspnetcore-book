@@ -21,7 +21,7 @@ The code for the finished version of the application you'll build is available o
 
 The book itself is updated frequently with bug fixes and new content. If you're reading a PDF, e-book, or print version, check the official website \([littleasp.net/book](http://www.littleasp.net/book)\) to see if there's an updated version available. Check the very last page of the book for version information and a changelog.
 
-El código para la versión final de la aplicación que construirás está disponible en GitHub \([https://www.github.com/nbarbettini/little-aspnetcore-todo\](https://www.github.com/nbarbettini/little-aspnetcore-todo\)\). Puedes descargarlo ahora si deseas compararlo mientras escribes tu propio código.
+El código para la versión final de la aplicación que construirás está disponible en GitHub \([https://www.github.com/nbarbettini/little-aspnetcore-todo\](https://www.github.com/nbarbettini/little-aspnetcore-todo%29\). Puedes descargarlo ahora si deseas compararlo mientras escribes tu propio código.
 
 El libro en sí se actualiza con frecuencia con correcciones de errores y nuevos contenidos. Si estás leyendo un PDF, un libro electrónico o una versión impresa, consulta el sitio web oficial \(littleasp.net/book\) para ver si hay una versión actualizada disponible. Comprueba la última página del libro para obtener información sobre la versión y un registro de cambios.
 
@@ -41,7 +41,7 @@ ASP.NET Core es un framework web creado por Microsoft para el desarrollo de apli
 
 ASP.NET Core funciona sobre el motor de ejecución .NET de Microsoft \(.NET runtime\), similar a la máquina virtual de Java \(Java Virtual Machine o JVM\) o el intérprete Ruby. Puedes escribir aplicaciones ASP.NET Core en varios idiomas \(C\#, Visual Basic y F\#\). C\# es la opción más popular, y es lo que voy a utilizar en este libro. Como es multi-plataforma, puedes crear y ejecutar aplicaciones ASP.NET Core en Windows, Mac y Linux.
 
-## Why do we need another web framework?
+## ¿Por qué necesitamos un nuevo framework web?
 
 There are a lot of great web frameworks to choose from already: Node/Express, Spring, Ruby on Rails, Django, Laravel, and many more. What advantages does ASP.NET Core have?
 
@@ -50,6 +50,14 @@ There are a lot of great web frameworks to choose from already: Node/Express, Sp
 * **Ecosystem.** ASP.NET Core may be new, but .NET has been around for a long time. There are thousands of packages available on NuGet \(the .NET package manager; think npm, Ruby gems, or Maven\). There are already packages available for JSON deserialization, database connectors, PDF generation, or almost anything else you can think of.
 
 * **Security.** The team at Microsoft takes security seriously, and ASP.NET Core is built to be secure from the ground up. It handles things like sanitizing input data and preventing cross-site request forgery \(XSRF\) automatically, so you don't have to. You also get the benefit of static typing with the .NET compiler, which is like having a very paranoid linter turned on at all times. This makes it harder to do something you didn't intend with a variable or chunk of data.
+
+Hay un montón frameworks web geniales que podrías elegir ya mismo: Node / Express, Spring, Ruby on Rails, Django, Laravel, y muchos más. ¿Qué ventajas tiene ASP.NET Core?
+
+* **Velocidad**. ASP.NET Core es rápido. Debido a que el código .NET se compila, se ejecuta mucho más rápido que el código en lenguajes interpretados como JavaScript o Ruby. ASP.NET Core también está optimizado para multi-hilo \(multi-threading\) y tareas asíncronas que permiten aprovechar de manera eficiente el rendimiento de la máquina. Digamos que es común ver una mejora de velocidad de 5 a 10 veces superior al código escrito con Node.js.
+
+* **Ecosistema**. ASP.NET Core puede ser nuevo, pero .NET ha existido desde hace mucho tiempo. Hay miles de paquetes disponibles en NuGet \(el gestor de paquetes .NET, similar a npm, Ruby gems o Maven\). Hay paquetes disponibles para deserialización JSON, conectores de bases de datos, generación de PDF, o casi cualquier otra cosa que te puedas imaginar.
+
+* **Seguridad**. El equipo de Microsoft se toma la seguridad muy en serio y ASP.NET Core está diseñado para ser seguro desde sus cimientos. Maneja y filtra los datos de entrada y previene la falsificación de solicitudes cruzadas \(XSRF\) de forma automática, por lo que no es necesario hacerlo tú mismo. También obtienes el beneficio de escritura estática de código mediante el compilador .NET, que es como tener un chivato muy paranoico activado en todo momento que te avisa de cualquier error sin necesidad de compilar. Esto previene hacer mal las cosas en una variable o una porción de código.
 
 ## .NET Core and .NET Standard
 
