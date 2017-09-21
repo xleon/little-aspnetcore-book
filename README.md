@@ -85,7 +85,7 @@ Y sólo por tenerlo en cuenta, **.NET Framework** es una implementación diferen
 
 Si te confunden todos estos nombres, ¡no te preocupes! Vamos a ver ejemplos de código real en breve.
 
-## A note to ASP.NET 4 developers
+## Aclaración para desarrolladores de ASP.NET 4
 
 If you haven't used a previous version of ASP.NET, skip ahead to the next chapter!
 
@@ -94,4 +94,14 @@ ASP.NET Core is a complete ground-up rewrite of ASP.NET, with a focus on moderni
 Because of the Katana legacy, the `Startup` class is front and center, and there's no more `Application_Start` or `Global.asax`. The entire pipeline is driven by middleware, and there's no longer a split between MVC and Web API: controllers can simply return views, status codes, or data. Dependency injection comes baked in, so you don't need to install and configure a container like StructureMap or Ninject if you don't want to. And the entire framework has been optimized for speed and runtime efficiency.
 
 Alright, enough introduction. Let's dive in to ASP.NET Core!
+
+
+
+> Si no has utilizado versiones anteriores de ASP.NET, puedes pasar directamente al siguiente capítulo.
+
+ASP.NET Core es una re-escritura completa de ASP.NET, enfocándose en la modernización del framework y desvinculándolo de System.Web, IIS \(Internet Information Server\) y Windows. Si recuerdas todas las cosas de OWIN / Katana de ASP.NET 4, ya estás a mitad de camino: el proyecto Katana se convirtió en ASP.NET 5, que finalmente se renombró a ASP.NET Core.
+
+Debido al legado de Katana, la clase `Startup` sigue siendo el punto de entrada, y ya no se usa `Application_Start` o `Global.asax`. La totalidad del flujo de entrada y salida es conducido por middleware, y ya no hay una división entre MVC y API Web: los controladores pueden simplemente devolver vistas, códigos de estado o datos, indistintamente. La inyección de dependencias ahora viene de fábrica, así que no te hace falta instalar y configurar un contenedor de terceros como StructureMap, Unity o Ninject. Y todo el framework ha sido optimizado para velocidad y eficiencia en tiempo de ejecución.
+
+Muy bien, hasta aquí llegó la introducción. ¡Vamos a bucear en ASP.NET Core!
 
