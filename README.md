@@ -61,18 +61,6 @@ Hay un montón frameworks web geniales que podrías elegir ya mismo: Node / Expr
 
 ## .NET Core y .NET Standard
 
-Throughout this book, you'll be learning about ASP.NET Core \(the web framework\). I'll occasionally mention the .NET runtime \(the supporting library that runs .NET code\).
-
-You may also hear about .NET Core and .NET Standard. The naming gets confusing, so here's a simple explanation:
-
-**.NET Standard** is a platform-agnostic interface that defines what features and APIs are available in .NET. .NET Standard doesn't represent any actual code or functionality, just the API definition. There are different "versions" or levels of .NET Standard that reflect how many APIs are available \(or how wide the API surface area is\). For example, .NET Standard 2.0 has more APIs available than .NET Standard 1.5, which has more APIs than .NET Standard 1.0.
-
-**.NET Core** is the .NET runtime that can be installed on Windows, Mac, or Linux. It implements the APIs defined in the .NET Standard interface with the appropriate platform-specific code on each operating system. This is what you'll install on your own machine to build and run ASP.NET Core applications.
-
-And just for good measure, **.NET Framework** is a different implementation of .NET Standard that is Windows-only. This was the only .NET runtime until .NET Core came along and opened .NET up to Mac and Linux. ASP.NET Core can also run on Windows-only .NET Framework, but I won't touch on this too much.
-
-If you're confused by all this naming, no worries! We'll get to some real code in a bit.
-
 A través de este libro, aprenderás sobre ASP.NET Core \(el framework web\). De vez en cuando mencionaré el motor de ejecución de .NET \(la librería de soporte que ejecuta código .NET\).
 
 También verás menciones sobre .NET Core y .NET Standard. Ambos se pueden confundir, así que va una explicación sencilla:
