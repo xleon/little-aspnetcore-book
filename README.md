@@ -73,19 +73,17 @@ And just for good measure, **.NET Framework** is a different implementation of .
 
 If you're confused by all this naming, no worries! We'll get to some real code in a bit.
 
+A través de este libro, aprenderás sobre ASP.NET Core \(el framework web\). De vez en cuando mencionaré el motor de ejecución de .NET \(la librería de soporte que ejecuta código .NET\).
 
+También verás menciones sobre .NET Core y .NET Standard. Ambos se pueden confundir, así que va una explicación sencilla:
 
-A lo largo de este libro, aprenderá sobre ASP.NET Core \(el framework web\). De vez en cuando mencionaré el runtime de .NET \(la biblioteca de soporte que ejecuta código .NET\).
+**.NET Standard** es una interfaz independiente de la plataforma que define qué características y APIs están disponibles en .NET. No representa ningún código o funcionalidad real, sino la definición de la API. Existen diferentes "versiones" o niveles de .NET Standard que reflejan cuántas APIs están disponibles \(o cuán amplia es la superficie de la API\). Por ejemplo, .NET Standard 2.0 tiene más APIs disponibles que .NET Standard 1.5, que a su vez tiene más APIs que .NET Standard 1.0.
 
-También puede escuchar acerca de .NET Core y .NET Standard. El nombre se confunde, así que aquí está una explicación sencilla:
+**.NET Core** es el motor de ejecución multi-plataforma de .NET que se puede instalar en Windows, Mac o Linux. Implementa las APIs definidas en la interfaz .NET Standard con el código específico de plataforma apropiado en cada sistema operativo. Esto es lo que instalará en tu propia máquina para crear y ejecutar aplicaciones ASP.NET Core.
 
-.NET Standard es una interfaz independiente de la plataforma que define qué características y API están disponibles en .NET. .NET Standard no representa ningún código o funcionalidad real, solo la definición de la API. Existen diferentes "versiones" o niveles de .NET Standard que reflejan cuántas API están disponibles \(o qué tan amplia es la superficie de la API\). Por ejemplo, .NET Standard 2.0 tiene más API disponibles que .NET Standard 1.5, que tiene más API que .NET Standard 1.0.
+Y sólo por tenerlo en cuenta, **.NET Framework** es una implementación diferente de .NET Standard que solo vale para Windows \(no es multi-plataforma\). Éste fue el único motor de ejecución .NET existente hasta que .NET Core apareció. Fue entones cuando .NET abrió sus puertas a Mac y Linux. ASP.NET Core también puede ejecutarse en Windows .NET Framework, pero no voy a tocar ese tema demasiado.
 
-.NET Core es el runtime de .NET que se puede instalar en Windows, Mac o Linux. Implementa las API definidas en la interfaz .NET Standard con el código específico de plataforma apropiado en cada sistema operativo. Esto es lo que instalará en su propia máquina para crear y ejecutar aplicaciones ASP.NET Core.
-
-Y sólo por buena medida, .NET Framework es una implementación diferente de .NET Standard que es sólo para Windows. Este fue el único tiempo de ejecución .NET hasta que .NET Core apareció y abrió .NET hasta Mac y Linux. ASP.NET Core también puede ejecutarse en Windows .NET Framework, pero no voy a tocar en esto demasiado.
-
-Si estás confundido por todo este nombramiento, no te preocupes! Vamos a llegar a algún código real en un poco.
+Si te confunden todos estos nombres, ¡no te preocupes! Vamos a ver ejemplos de código real en breve.
 
 ## A note to ASP.NET 4 developers
 
