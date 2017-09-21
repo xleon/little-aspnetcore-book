@@ -2,8 +2,6 @@
 
 ¡Gracias por elegir el Mini libro de Asp.NET Core! Escribí este pequeño libro para ayudar a desarrolladores y gente interesada en programación web a aprender Asp.NET Core 2.0, un nuevo framework para construir aplicaciones web y APIs.
 
-Thanks for picking up the Little ASP.NET Core Book! I wrote this short book to help developers and people interested in web programming learn about ASP.NET Core 2.0, a new framework for building web applications and APIs.
-
 Mini libro de Asp.NET Core está estructurado como un tutorial. Construirás un gestor de tareas de principio a fin, y aprenderás:
 
 * Conceptos básicos del patrón MVC \(Modelo-Vista-Controlador\)
@@ -16,10 +14,6 @@ Mini libro de Asp.NET Core está estructurado como un tutorial. Construirás un 
 No te preocupes, no necesitas saber nada de Asp.Net Core \(o algo de lo citado anteriormente\) para empezar.
 
 ## Antes de empezar
-
-The code for the finished version of the application you'll build is available on GitHub \([https://www.github.com/nbarbettini/little-aspnetcore-todo](https://www.github.com/nbarbettini/little-aspnetcore-todo)\). Feel free to download it if you want to compare as you write your own code.
-
-The book itself is updated frequently with bug fixes and new content. If you're reading a PDF, e-book, or print version, check the official website \([littleasp.net/book](http://www.littleasp.net/book)\) to see if there's an updated version available. Check the very last page of the book for version information and a changelog.
 
 El código para la versión final de la aplicación que construirás está disponible en GitHub \([https://www.github.com/nbarbettini/little-aspnetcore-todo\](https://www.github.com/nbarbettini/little-aspnetcore-todo%29\). Puedes descargarlo ahora si deseas compararlo mientras escribes tu propio código.
 
@@ -42,14 +36,6 @@ ASP.NET Core es un framework web creado por Microsoft para el desarrollo de apli
 ASP.NET Core funciona sobre el motor de ejecución .NET de Microsoft \(.NET runtime\), similar a la máquina virtual de Java \(Java Virtual Machine o JVM\) o el intérprete Ruby. Puedes escribir aplicaciones ASP.NET Core en varios idiomas \(C\#, Visual Basic y F\#\). C\# es la opción más popular, y es lo que voy a utilizar en este libro. Como es multi-plataforma, puedes crear y ejecutar aplicaciones ASP.NET Core en Windows, Mac y Linux.
 
 ## ¿Por qué necesitamos un nuevo framework web?
-
-There are a lot of great web frameworks to choose from already: Node/Express, Spring, Ruby on Rails, Django, Laravel, and many more. What advantages does ASP.NET Core have?
-
-* **Speed.** ASP.NET Core is fast. Because .NET code is compiled, it executes much faster than code in interpreted languages like JavaScript or Ruby. ASP.NET Core is also optimized for multithreading and asynchronous tasks. It's common to see a 5-10x speed improvement over code written in Node.js.
-
-* **Ecosystem.** ASP.NET Core may be new, but .NET has been around for a long time. There are thousands of packages available on NuGet \(the .NET package manager; think npm, Ruby gems, or Maven\). There are already packages available for JSON deserialization, database connectors, PDF generation, or almost anything else you can think of.
-
-* **Security.** The team at Microsoft takes security seriously, and ASP.NET Core is built to be secure from the ground up. It handles things like sanitizing input data and preventing cross-site request forgery \(XSRF\) automatically, so you don't have to. You also get the benefit of static typing with the .NET compiler, which is like having a very paranoid linter turned on at all times. This makes it harder to do something you didn't intend with a variable or chunk of data.
 
 Hay un montón frameworks web geniales que podrías elegir ya mismo: Node / Express, Spring, Ruby on Rails, Django, Laravel, y muchos más. ¿Qué ventajas tiene ASP.NET Core?
 
